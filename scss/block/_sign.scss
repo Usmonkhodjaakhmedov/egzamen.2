@@ -1,0 +1,103 @@
+.sign {
+    padding-top: 150px;
+}
+
+.sign__inner {
+    max-width: 1440px;
+    height: 300px;
+    background-image: url("/img.eg/bacg__sign.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.sign__inner__title {
+    font-size: 48px;
+    max-width: 415px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.sign__inner__box {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign__inner__link {
+    width: 259px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign__link {
+    font-size: 7px;
+    color: #495567;
+}
+.sign__inner__link__btn:hover {
+    font-size: 130%;
+    background-color: black;
+    color: #fff;
+   }
+.sign__inner__link__btn {
+    max-width: 130px;
+    max-height: 50px;
+    color: #495567;
+    font-size: 15px;
+    background-color: #E5ECF4;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+.sign__img__btn {
+    padding-left: 5px;
+    max-width: 24px;
+    max-height: 28px;
+}
+
+@media all and (max-width:768px) {
+    .sign {
+        max-width: 768px;
+    }
+
+    .sign__inner {
+        background-image: url("/img.eg/resp__sign.png");
+    }
+
+    .sign__inner__box {
+        padding-top: 50px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:375px) {
+    .sign {
+        max-width: 375px;
+    }
+
+    .sign__inner {
+        background-image: url("/img.eg/resp__sign-2.jpg");
+    }
+
+    .sign__inner__box {
+        padding-top: 50px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sign__inner__title {
+        font-size: 32px;
+    }
+}
